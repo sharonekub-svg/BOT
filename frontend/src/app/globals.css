@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(16, 185, 129, 0.06), transparent),
+    radial-gradient(900px 500px at -10% 110%, rgba(14, 165, 233, 0.05), transparent),
+    #020617;
+}
+
+/* slim dark scrollbars */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
