@@ -50,7 +50,7 @@ class Settings(BaseSettings):
     # --- Trading & risk -------------------------------------------
     trading_mode: str = "paper"  # paper | live
     auto_trade_enabled: bool = False
-    starting_bankroll: float = 10_000.0
+    starting_bankroll: float = 500.0
     fee_rate: float = 0.0
     spread_buffer: float = 0.005
     kelly_fraction: float = 0.25
